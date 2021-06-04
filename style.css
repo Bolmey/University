@@ -10,7 +10,8 @@
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30, 0.7)),url('./img/Imgs/banner.png');
     background-position: center;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+    position:relative;
 }
 
 nav{
@@ -33,7 +34,7 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 9px 12px;
     position: relative;
 }
 
@@ -46,7 +47,7 @@ nav img{
 .nav-links ul li::after{
     content: '';
     width: 0%;
-    height: 2px;
+    height: 3px;
     background: #f44336;
     display: block;
     margin: auto;
@@ -59,7 +60,7 @@ nav img{
 }
 
 .text-box{
-    width: 90%;
+    width: 91`%;
     color: white;
     position:absolute;
     top:50%;
